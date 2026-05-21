@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reframe | Rebuild | Rise — Annual Corporate Offsite 2026 | Benchmark Experiences</title>
+    <meta name="description" content="Reframe | Rebuild | Rise — Annual Corporate Offsite 2026 by Benchmark Experiences. A premium cinematic experience.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Bebas+Neue&family=Antonio:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-line"></div>
+            <span class="preloader-text">BENCHMARK EXPERIENCES</span>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <!-- Layer 0: Base background — slowest parallax -->
+        <div class="parallax-layer parallax-bg" data-speed="0.15">
+            <img src="bg/bg.webp" alt="Background with smoke and light leaks" class="hero-bg-img">
+        </div>
+
+        <!-- Ambient glow orbs -->
+        <div class="glow-layer">
+            <div class="glow-orb glow-orb-1"></div>
+            <div class="glow-orb glow-orb-2"></div>
+            <div class="glow-orb glow-orb-3"></div>
+            <div class="glow-orb glow-orb-4"></div>
+        </div>
+
+        <!-- Layer 1: Bottom hand — medium parallax -->
+        <div class="parallax-layer parallax-hand-bottom" data-speed="0.35">
+            <img src="bg/bottomhand.webp" alt="Bottom hand" class="hand-img hand-bottom-img" loading="lazy">
+        </div>
+
+        <!-- Layer 2: Top hand — fastest parallax (closest to viewer) -->
+        <div class="parallax-layer parallax-hand-top" data-speed="0.5">
+            <img src="bg/tophand.webp" alt="Top hand" class="hand-img hand-top-img" loading="lazy">
+        </div>
+
+        <div class="hero-overlay"></div>
+
+        <!-- Floating particles -->
+        <div class="particles" id="particles"></div>
+
+        <div class="hero-content">
+            <div class="hero-title-group">
+                <div class="word-container">
+                    <span class="hero-word" id="word-reframe" data-text="REFRAME">REFRAME</span>
+                </div>
+                <div class="separator-container">
+                    <span class="separator" id="sep-1">|</span>
+                </div>
+                <div class="word-container">
+                    <span class="hero-word" id="word-rebuild" data-text="REBUILD">REBUILD</span>
+                </div>
+                <div class="separator-container">
+                    <span class="separator" id="sep-2">|</span>
+                </div>
+                <div class="word-container">
+                    <span class="hero-word" id="word-rise" data-text="RISE">RISE</span>
+                </div>
+            </div>
+            <div class="hero-subtitle" id="hero-subtitle">
+                <span class="subtitle-line">Annual Corporate Offsite 2026</span>
+                <span class="subtitle-dash">—</span>
+                <span class="subtitle-brand">Benchmark Experiences</span>
+            </div>
+        </div>
+
+        <div class="scroll-indicator" id="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span class="scroll-text">SCROLL</span>
+        </div>
+    </section>
+
+    <!-- Deliverables Section -->
+    <section id="deliverables" class="section deliverables-section">
+        <div class="section-container">
+            <div class="section-header reveal-on-scroll">
+                <span class="section-label">FINAL DELIVERABLES</span>
+                <h2 class="section-title">The Work</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="deliverables-grid">
+                <div class="deliverable-item reveal-on-scroll" data-delay="0">
+                    <div class="deliverable-img-wrap">
+                        <img src="deliverables/KV3.webp" alt="Social Post" loading="lazy">
+                        <div class="deliverable-overlay">
+                            <span class="deliverable-number">01</span>
+                        </div>
+                    </div>
+                    <div class="deliverable-label">
+                        <span class="label-tag">Social Post</span>
+                        <span class="label-desc">Key Visual — Campaign Hero</span>
+                    </div>
+                </div>
+
+                <div class="deliverable-item reveal-on-scroll" data-delay="100">
+                    <div class="deliverable-img-wrap">
+                        <img src="deliverables/announcementpost2.webp" alt="Announcement Post" loading="lazy">
+                        <div class="deliverable-overlay">
+                            <span class="deliverable-number">02</span>
+                        </div>
+                    </div>
+                    <div class="deliverable-label">
+                        <span class="label-tag">Announcement</span>
+                        <span class="label-desc">Event Reveal Post</span>
+                    </div>
+                </div>
+
+                <div class="deliverable-item reveal-on-scroll" data-delay="200">
+                    <div class="deliverable-img-wrap">
+                        <img src="deliverables/engagementpost1.webp" alt="Engagement Post" loading="lazy">
+                        <div class="deliverable-overlay">
+                            <span class="deliverable-number">03</span>
+                        </div>
+                    </div>
+                    <div class="deliverable-label">
+                        <span class="label-tag">Engagement Post</span>
+                        <span class="label-desc">Community Interaction</span>
+                    </div>
+                </div>
+
+                <div class="deliverable-item deliverable-full reveal-on-scroll" data-delay="300">
+                    <div class="deliverable-img-wrap">
+                        <img src="deliverables/backdrop2.webp" alt="Event Backdrop" loading="lazy">
+                        <div class="deliverable-overlay">
+                            <span class="deliverable-number">04</span>
+                        </div>
+                    </div>
+                    <div class="deliverable-label">
+                        <span class="label-tag">Backdrop</span>
+                        <span class="label-desc">Stage & Event Branding</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="section process-section">
+        <div class="section-container">
+            <div class="section-header reveal-on-scroll">
+                <span class="section-label">BEHIND THE SCENES</span>
+                <h2 class="section-title">Creative Process</h2>
+                <div class="section-line"></div>
+                <p class="section-caption">Early concepts, directions explored, and the evolution of the visual identity.</p>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-item reveal-on-scroll" data-delay="0">
+                    <div class="process-img-wrap">
+                        <img src="process/kv.webp" alt="Key Visual v1" loading="lazy">
+                    </div>
+                    <span class="process-caption">Key Visual — Direction 1</span>
+                </div>
+
+                <div class="process-item reveal-on-scroll" data-delay="80">
+                    <div class="process-img-wrap">
+                        <img src="process/KV2.webp" alt="Key Visual v2" loading="lazy">
+                    </div>
+                    <span class="process-caption">Key Visual — Direction 2</span>
+                </div>
+
+                <div class="process-item reveal-on-scroll" data-delay="160">
+                    <div class="process-img-wrap">
+                        <img src="process/KV4.webp" alt="Key Visual v4" loading="lazy">
+                    </div>
+                    <span class="process-caption">Key Visual — Exploration</span>
+                </div>
+
+                <div class="process-item reveal-on-scroll" data-delay="240">
+                    <div class="process-img-wrap">
+                        <img src="process/announcementpost.webp" alt="Announcement Draft" loading="lazy">
+                    </div>
+                    <span class="process-caption">Announcement — Draft</span>
+                </div>
+
+                <div class="process-item reveal-on-scroll" data-delay="320">
+                    <div class="process-img-wrap">
+                        <img src="process/engagementpost2.webp" alt="Engagement Draft" loading="lazy">
+                    </div>
+                    <span class="process-caption">Engagement — Concept</span>
+                </div>
+
+                <div class="process-item reveal-on-scroll" data-delay="400">
+                    <div class="process-img-wrap">
+                        <img src="process/backdrop.webp" alt="Backdrop Draft" loading="lazy">
+                    </div>
+                    <span class="process-caption">Backdrop — Early Stage</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="section video-section">
+        <div class="section-container">
+            <div class="section-header reveal-on-scroll">
+                <span class="section-label">THE FILM</span>
+                <h2 class="section-title">Experience It</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="video-wrapper reveal-on-scroll">
+                <div class="video-player" id="video-player">
+                    <iframe
+                        src="https://drive.google.com/file/d/1g-Zn1EqGCYosEZrCp1Yx06ixJ34DRok8/preview"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen
+                        frameborder="0"
+                        loading="lazy"
+                    ></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <span class="footer-brand">BENCHMARK EXPERIENCES</span>
+            <span class="footer-year">© 2026</span>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" class="lightbox-img" src="" alt="Enlarged view">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
